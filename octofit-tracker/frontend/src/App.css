@@ -1,0 +1,88 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 60%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  background: #fff;
+}
+
+.card-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table thead {
+  background: linear-gradient(90deg, #007bff 60%, #00c6ff 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-hover tbody tr:hover {
+  background-color: #b3e5fc;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 60%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #00c6ff 60%, #007bff 100%);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+a, .App-link {
+  color: #00bcd4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #007bff;
+}
+
+.octofit-logo {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-right: 0.5rem;
+}
+
+/* Favicon and logo tweaks */
+link[rel="icon"] {
+  border-radius: 50%;
+}
